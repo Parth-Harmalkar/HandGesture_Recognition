@@ -4,14 +4,14 @@ This Notebook demonstrates a comprehensive approach to hand gesture recognition 
 
 Features
 
-    Data Collection: Instructions and methods for collecting hand gesture images or video data.
-    Data Preprocessing: Techniques for preprocessing the data, including resizing, normalization, and augmentation.
-    Model Selection: Exploration of different machine learning models, including Convolutional Neural Networks (CNNs), for gesture recognition.
-    Training and Validation: Training the selected model with annotated data and validating its performance using various metrics.
-    Real-time Prediction: Implementation of real-time gesture recognition using a webcam or video input.
-    Visualization: Visualization of model performance, including accuracy and loss curves, and sample predictions.
+Data Collection: Instructions and methods for collecting hand gesture images or video data.
+Data Preprocessing: Techniques for preprocessing the data, including resizing, normalization, and augmentation.
+Model Selection: Exploration of different machine learning models, including Convolutional Neural Networks (CNNs), for gesture recognition.
+Training and Validation: Training the selected model with annotated data and validating its performance using various metrics.
+Real-time Prediction: Implementation of real-time gesture recognition using a webcam or video input.
+Visualization: Visualization of model performance, including accuracy and loss curves, and sample predictions.
 
-    Getting Started
+Getting Started
 Prerequisites
 
     Python 3.x
@@ -20,18 +20,18 @@ Prerequisites
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-    bash
+bash
 
-git clone https://github.com/yourusername/hand-gesture-recognition.git
-cd hand-gesture-recognition
+    git clone https://github.com/yourusername/HandGesture-Recognition.git
+    cd hand-gesture-recognition
 
 Install the dependencies:
 
 bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Open the Jupyter Notebook:
 
@@ -41,18 +41,11 @@ bash
 
 Usage
 
-    Follow the instructions in the notebook to preprocess the data and set up the environment.
-    Train the model using the provided dataset or your custom data.
-    Evaluate the model performance using the validation set.
-    Test the real-time prediction module with a webcam or video input.
+Follow the instructions in the notebook to preprocess the data and set up the environment.
+Train the model using the provided dataset or your custom data.
+Evaluate the model performance using the validation set.
+Test the real-time prediction module with a webcam or video input.
 
-Project Structure
-
-    hand_gestures.ipynb: Main Jupyter Notebook containing the entire workflow.
-    data/: Directory to store the dataset.
-    models/: Directory to save trained models.
-    requirements.txt: List of required libraries and dependencies.
-    utils.py: Utility functions for data preprocessing, model training, and evaluation.
 
 Contributions
 
