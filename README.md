@@ -38,6 +38,18 @@ bash
 
     jupyter notebook hand_gestures.ipynb
 
+# MediaPipe Example
+Hand Tracking with MediaPipe
+
+MediaPipe provides a powerful hand tracking module that can detect hands and track their movements in real-time. This module is utilized in our project to extract hand landmarks, which are then used for gesture recognition.
+
+# Keypoints Extraction
+
+Keypoints are extracted from the hand landmarks detected by MediaPipe. These keypoints serve as the input features for our machine learning model.
+Real-Time Prediction
+
+The notebook includes a real-time prediction module that uses your webcam to capture hand gestures and classify them using the trained model. The predictions are displayed on the screen, allowing for interactive testing and validation.
+
 # Usage
 
 Follow the instructions in the notebook to preprocess the data and set up the environment.
