@@ -25,7 +25,6 @@ Clone the repository:
 bash
 
     git clone https://github.com/yourusername/HandGesture-Recognition.git
-    cd hand-gesture-recognition
 
 Install the dependencies:
 
